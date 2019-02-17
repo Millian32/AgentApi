@@ -6,3 +6,4 @@ C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.AssemblyInfo.cs
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.dll
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.pdb
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.csprojAssemblyReference.cache
