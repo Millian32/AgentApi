@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using AgentData;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Examples;
@@ -42,6 +44,8 @@ namespace AgentApi
                 swag.OperationFilter<AddResponseHeadersFilter>(); // [SwaggerResponseHeader]
                 swag.OperationFilter<AppendAuthorizeToSummaryOperationFilter>(); // Adds "(Auth)" to the summary so that you can see which endpoints have Authorization
             });
+
+            ConfigureDependencyInjections(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,7 +62,6 @@ namespace AgentApi
             }
 
             app.UseHttpsRedirection();
-            //app.UseMvc();
 
             app.UseMvc(routes =>
             {
@@ -76,6 +79,11 @@ namespace AgentApi
                 swagUi.SwaggerEndpoint("/api-docs/swagger/v2/swagger.json", "Agent Api v2");
                 swagUi.RoutePrefix = "api-docs";
             });
+        }
+
+        private void ConfigureDependencyInjections(IServiceCollection services)
+        {
+            services.AddSingleton<IAgentDataService, AgentDataService>(); // Add AgentDataService DI
         }
     }
 }
