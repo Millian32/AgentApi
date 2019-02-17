@@ -62,13 +62,13 @@
               "target": "Package",
               "version": "[1.4.4, )"
             },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
             "Swashbuckle.AspNetCore.Examples": {
               "target": "Package",
               "version": "[2.9.0, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[4.0.1, )"
             }
           },
           "imports": [
