@@ -1,0 +1,8 @@
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\bin\Debug\netstandard2.0\AgentDataService.deps.json
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\bin\Debug\netstandard2.0\AgentDataService.dll
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\bin\Debug\netstandard2.0\AgentDataService.pdb
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.csproj.CoreCompileInputs.cache
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.AssemblyInfoInputs.cache
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.AssemblyInfo.cs
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.dll
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\AgentDataService.pdb
