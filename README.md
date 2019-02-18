@@ -9,7 +9,7 @@ Browse to Swagger endpoint (ex: http://localhost/api-docs/) to begin using the a
 
 # Assumptions
 
-the application will move away from a file based approach to a db at some point prior to production
+the application will move away from a file based approach to a db (which one) at some point prior to production
 
 some performance tweaks, like caching, and refactoring are down the pipe
 
@@ -17,7 +17,7 @@ api functionality will expand
 
 will run on windows, for now
 
-will use JSON for data
+will use JSON for data, and that the front end/clients (what are we expecting for the front end/consuming clients) will also use JSON
 
 # Specification questions
 
