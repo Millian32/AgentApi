@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using AgentData;
+﻿using System.IO;
+using DataService.AgentDataService;
+using DataService.CustomerDataService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Examples;
 using Swashbuckle.AspNetCore.Swagger;
 
@@ -84,6 +77,7 @@ namespace AgentApi
         private void ConfigureDependencyInjections(IServiceCollection services)
         {
             services.AddSingleton<IAgentDataService, AgentDataService>(); // Add AgentDataService DI
+            services.AddSingleton<ICustomerDataService, CustomerDataService>(); // Add CustomerDataService DI
         }
     }
 }

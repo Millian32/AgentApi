@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "AgentApi/1.0.0": {
         "dependencies": {
-          "AgentDataService": "1.0.0",
+          "DataService": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -603,12 +603,12 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "AgentDataService/1.0.0": {
+      "DataService/1.0.0": {
         "runtime": {
-          "AgentDataService.dll": {}
+          "DataService.dll": {}
         },
         "compile": {
-          "AgentDataService.dll": {}
+          "DataService.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3849,7 +3849,7 @@
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
-    "AgentDataService/1.0.0": {
+    "DataService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

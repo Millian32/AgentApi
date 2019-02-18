@@ -4803,14 +4803,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "AgentDataService/1.0.0": {
+      "DataService/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/AgentDataService.dll": {}
+          "bin/placeholder/DataService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AgentDataService.dll": {}
+          "bin/placeholder/DataService.dll": {}
         }
       }
     }
@@ -13159,15 +13159,15 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "AgentDataService/1.0.0": {
+    "DataService/1.0.0": {
       "type": "project",
-      "path": "../AgentDataService/AgentDataService.csproj",
-      "msbuildProject": "../AgentDataService/AgentDataService.csproj"
+      "path": "../AgentDataService/DataService.csproj",
+      "msbuildProject": "../AgentDataService/DataService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "AgentDataService >= 1.0.0",
+      "DataService >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -13207,8 +13207,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\AgentDataService.csproj": {
-              "projectPath": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\AgentDataService.csproj"
+            "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\DataService.csproj": {
+              "projectPath": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\DataService.csproj"
             }
           }
         }

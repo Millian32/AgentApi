@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AgentDataService\AgentDataService.csproj" />
+    <ProjectReference Include="..\AgentDataService\DataService.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\AgentDataService.csproj": {
-                "projectPath": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\AgentDataService.csproj"
+              "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\DataService.csproj": {
+                "projectPath": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\DataService.csproj"
               }
             }
           }
@@ -87,12 +87,12 @@
         }
       }
     },
-    "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\AgentDataService.csproj": {
+    "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\DataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\AgentDataService.csproj",
-        "projectName": "AgentDataService",
-        "projectPath": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\AgentDataService.csproj",
+        "projectUniqueName": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\DataService.csproj",
+        "projectName": "DataService",
+        "projectPath": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\DataService.csproj",
         "packagesPath": "C:\\Users\\Millian32\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Millian32\\source\\repos\\AgentApi\\AgentDataService\\obj\\",
         "projectStyle": "PackageReference",

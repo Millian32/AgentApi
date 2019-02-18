@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AgentData;
-using Microsoft.AspNetCore.Http;
+﻿using DataService.AgentDataService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgentApi.Controllers
@@ -19,11 +14,24 @@ namespace AgentApi.Controllers
             _agentDataService = agentDataService;
         }
 
-        [HttpGet("All")]
+        [HttpGet("AllAgents")]
         public IActionResult All()
         {
-            return Ok(_agentDataService.GetAllAgents());
+            return Ok(_agentDataService.AllAgents());
         }
+
+        [HttpGet("AgentDetails")]
+        public IActionResult Details(int id)
+        {
+            return Ok(_agentDataService.AgentDetails(id));
+        }
+
+
+
+
+
+
+
         //// GET: api/Agent
         //[HttpGet]
         //public IEnumerable<string> Get()
