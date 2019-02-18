@@ -9,19 +9,21 @@ namespace DataService.AgentDataService
 {
     public class AgentDataService : IAgentDataService
     {
-        public string AllAgents()
+        private readonly string _path = string.Empty;
+        public AgentDataService()
         {
-            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\TestData\\agents.json";
-
-            return IO.ReadAllText(path);
+            _path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\TestData\\agents.json";
+        }
+        public string AllAgents()
+        {          
+            return IO.ReadAllText(_path);
         }
 
         public string AgentDetails(int id)
-        {
-            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\TestData\\agents.json";
-            var contents = IO.ReadAllText(path);
-            var agents = JsonConvert.DeserializeObject<List<Agent>>(contents);
+        {   // data fetch below will change
+            var agentData = IO.ReadAllText(_path);
 
+            var agents = JsonConvert.DeserializeObject<List<Agent>>(agentData);
             var agent = agents.Find(agentDetails => agentDetails._id == id);
 
             return JsonConvert.SerializeObject(agent);
