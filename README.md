@@ -17,7 +17,15 @@ api functionality will expand
 
 will run on windows, for now
 
+will use JSON for data
+
 # Specification questions
 
+Who are the consumers of the api?  If third party, we will need user stories for security/authentication/authorization
 
+How many users are expected for this application?
+
+What are the performance expectations?
+
+Will we containerize the application at some point?
 
