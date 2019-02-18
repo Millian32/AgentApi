@@ -6,7 +6,7 @@ namespace DataService
     public static class CRUD
     {
         public static bool WriteConfigDataToFile(string data, string path)
-        {
+        {   //would need to lock if sticking with files
             if (string.IsNullOrEmpty(data)) { return false; }
             if (string.IsNullOrEmpty(path)) { return false; }
 
