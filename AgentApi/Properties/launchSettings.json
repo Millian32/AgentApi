@@ -20,7 +20,7 @@
     "AgentApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api-docs/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

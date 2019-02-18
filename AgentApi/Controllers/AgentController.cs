@@ -26,6 +26,22 @@ namespace AgentApi.Controllers
             return Ok(_agentDataService.AgentDetails(id));
         }
 
+        [HttpPost("AddAgent")]
+        public IActionResult AddAgent(string data)
+        {
+            return Ok(_agentDataService.AddAgent(data));
+        }
 
+        [HttpDelete("DeleteAgent")]
+        public IActionResult DeleteAgent(int id)
+        {
+            return Ok(_agentDataService.DeleteAgent(id));
+        }
+
+        [HttpPut("UpdateAgent")]
+        public IActionResult UpdateAgent(string data)
+        {
+            return Ok(_agentDataService.UpdateAgent(data));
+        }
     }
 }

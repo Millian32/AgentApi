@@ -5,10 +5,10 @@ C:\Users\Millian32\source\repos\AgentApi\AgentDataService\bin\Debug\netstandard2
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\bin\Debug\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.xml
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
-C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.csprojAssemblyReference.cache
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.csproj.CoreCompileInputs.cache
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.AssemblyInfoInputs.cache
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.AssemblyInfo.cs
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.csproj.CopyComplete
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.dll
 C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.pdb
+C:\Users\Millian32\source\repos\AgentApi\AgentDataService\obj\Debug\netstandard2.0\DataService.csprojAssemblyReference.cache
