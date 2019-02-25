@@ -14,31 +14,38 @@ namespace AgentApi.Controllers
             _customerDataService = customerDataService;
         }
 
-        [HttpGet("AllCustomers")]
+        [HttpGet("All")]
         public IActionResult AllCustomers()
         {
-            return Ok(_customerDataService.AllCustomers());
+            var allCustomers = _customerDataService.AllCustomers();
+            if (string.IsNullOrEmpty(allCustomers)) { return NotFound(); }
+
+            return Ok(allCustomers);
         }
 
         [HttpGet("CustomerByAgent")]
         public IActionResult CustomerByAgent(int id)
         {
-            return Ok(_customerDataService.CustomerByAgent(id));
+            if (id <= 0) { return BadRequest(); }
+            var customer = _customerDataService.CustomerByAgent(id);
+            if (string.IsNullOrEmpty(customer)) { return NotFound(); }
+
+            return Ok(customer);
         }
 
-        [HttpPost("AddCustomer")]
+        [HttpPost("Add")]
         public IActionResult AddCustomer(string data)
         {
             return Ok(_customerDataService.AddCustomer(data));
         }
 
-        [HttpDelete("DeleteCustomer")]
+        [HttpDelete("Delete")]
         public IActionResult DeleteCustomer(int id)
         {
             return Ok(_customerDataService.DeleteCustomer(id));
         }
 
-        [HttpPut("UpdateCustomer")]
+        [HttpPut("Update")]
         public IActionResult UpdateCustomer(string data)
         {
             return Ok(_customerDataService.UpdateCustomer(data));

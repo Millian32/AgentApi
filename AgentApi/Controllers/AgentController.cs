@@ -14,31 +14,34 @@ namespace AgentApi.Controllers
             _agentDataService = agentDataService;
         }
 
-        [HttpGet("AllAgents")]
-        public IActionResult All()
+        [HttpGet("All")]
+        public IActionResult AllAgents()
         {
-            return Ok(_agentDataService.AllAgents());
+            var allAgents = _agentDataService.AllAgents();
+            if (string.IsNullOrEmpty(allAgents)) { return NotFound(); }
+
+            return Ok();
         }
 
-        [HttpGet("AgentDetails")]
+        [HttpGet("Details")]
         public IActionResult Details(int id)
         {
             return Ok(_agentDataService.AgentDetails(id));
         }
 
-        [HttpPost("AddAgent")]
+        [HttpPost("Add")]
         public IActionResult AddAgent(string data)
         {
             return Ok(_agentDataService.AddAgent(data));
         }
 
-        [HttpDelete("DeleteAgent")]
+        [HttpDelete("Delete")]
         public IActionResult DeleteAgent(int id)
         {
             return Ok(_agentDataService.DeleteAgent(id));
         }
 
-        [HttpPut("UpdateAgent")]
+        [HttpPut("Update")]
         public IActionResult UpdateAgent(string data)
         {
             return Ok(_agentDataService.UpdateAgent(data));

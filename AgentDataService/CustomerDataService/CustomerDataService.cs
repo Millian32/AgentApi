@@ -19,6 +19,8 @@ namespace DataService.CustomerDataService
         }
         public string AllCustomers()
         {
+            if (!File.Exists(_path)) { return string.Empty; }
+
             return IO.ReadAllText(_path);
         }
 

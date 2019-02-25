@@ -15,7 +15,9 @@ namespace DataService.AgentDataService
             _path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\TestData\\agents.json";
         }
         public string AllAgents()
-        {          
+        {
+            if (!File.Exists(_path)) { return string.Empty; }
+
             return IO.ReadAllText(_path);
         }
 
