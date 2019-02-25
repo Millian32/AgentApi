@@ -27,5 +27,6 @@
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\Millian32\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.4.4</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore.tools\2.2.0</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.2.0</PkgMicrosoft_AspNetCore_Razor_Design>
+    <PkgMicrosoft_ApplicationInsights_WindowsServer Condition=" '$(PkgMicrosoft_ApplicationInsights_WindowsServer)' == '' ">C:\Users\Millian32\.nuget\packages\microsoft.applicationinsights.windowsserver\2.8.1</PkgMicrosoft_ApplicationInsights_WindowsServer>
   </PropertyGroup>
 </Project>
